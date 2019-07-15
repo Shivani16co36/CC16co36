@@ -5,21 +5,21 @@ using namespace std;
 int main()
 {
 //str[10]={a,1,2,3,4,r};
-int i;
-std::string t;
+int j;
+char t,i,f,Ss;
 
 char array1[10];
 cout<<"Enter the array of characters";
-for(i=0;i<10;i++)
+for(j=0;j<10;j++)
 {
-cin>>array1[i];
+cin>>array1[j];
 }
 //int x;
-for(i=0;i<10;i++)
+for(j=0;j<10;j++)
 {
 
-t=typeid(array1[i]).name();
-if(t==array1[i])
+t=typeid(array1[j]).name();
+if(t==i)
 cout<<"integer";
 else if(t==f)
 cout<<"float";
